@@ -20,7 +20,7 @@ class HelloWorldController {
 
 	@RequestMapping("/")
 	public String hello() {
-		return "Hello World Spring Boot 04Jun2022...";
+		return "Hello World Spring Boot 05Jun2022...";
 	}
 
 	@RequestMapping("/welcome/{name}")
