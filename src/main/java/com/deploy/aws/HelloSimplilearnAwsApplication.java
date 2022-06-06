@@ -20,7 +20,7 @@ class HelloWorldController {
 
 	@RequestMapping("/")
 	public String hello() {
-		return "Hello World Spring Boot 05Jun2022...";
+		return "Welcome to Docker Image and Docker Container..";
 	}
 
 	@RequestMapping("/welcome/{name}")
